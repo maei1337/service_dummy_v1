@@ -8,6 +8,13 @@ class Product(Resource):
     def get(self):
         return {'products': ['ice-cream', 'chocolate', 'chips', 'fruits']}
 
+
+
+    def post(self):
+        pass
+
+
+
 api.add_resource(Product, '/')
 
 if __name__ == '__main__':
